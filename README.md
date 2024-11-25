@@ -1,3 +1,5 @@
+This is a project for Headstarter Fellowship Week 3. It uses a Gemini AI API, Stripe API for payment processing, and Clerk for Identity Access Management, to make a simple SaaS that allows users to make their flashcards using AI. All payment is set up to be in prototype mode, and the website does not require payments. Live Link: flashcards-ai-self.vercel.app
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
