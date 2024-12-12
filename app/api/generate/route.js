@@ -4,7 +4,9 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 const systemPrompt = `
 You are a flashcard creator, you take in text and create multiple flashcards from it. Make sure to create exactly 12 flashcards.
 Both front and back should be one sentence long. The front should be a question/word and the back should define/explain it.
-You should return in the following JSON format, without any other words or characters other than what is shown after the colon:
+You should return in the following format (That will be parsed into JSON, so you do not want to add any characters such as \`:
+
+
 {
   "flashcards":[
     {
